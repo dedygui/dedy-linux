@@ -1,0 +1,18 @@
+<div class="recentpoststyle">
+<script src="https://cdn.rawgit.com/dedypokoke71/dedy/cba47e08/recentpost1.js"></script>
+<script>
+var posts_no = 5;var posts_date = true;var post_summary = true;var summary_chars = 80;</script>
+<script src="/feeds/posts/default?orderby=published&amp;alt=json-in-script&amp;callback=showlatestposts">
+</script><a href="dedy-linux.blogspot.com" style="color: #cecece; float: right; font-size: 9px; margin: 5px;">Recent Posts Widget</a>
+<noscript>Your browser does not support JavaScript!</noscript>
+<style type="text/css">
+.recentpoststyle {counter-reset: countposts;list-style-type: none;}
+.recentpoststyle a {text-decoration: none; color: #49A8D1;}
+.recentpoststyle a:hover {color: #000;}
+.recentpoststyle li:before {content: counter(countposts,decimal);counter-increment: countposts;float: left;z-index: 2;position:relative;font-size: 20px;font-weight: bold;color: #fff;background: #69B7E2; margin: 15px 5px 0px -6px; padding: 0px 10px; border-radius: 100%;}
+li.recent-post-title { padding: 5px 0px;}
+.recent-post-title { font-family: "Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,AppleGothic,sans-serif;}
+.recent-post-title a {color: #444;font-size: 13px; text-decoration: none; padding: 2px; font-weight: bold;}
+.post-date {padding: 5px 2px 5px 30px; font-size: 11px; color: #999; margin-bottom: 5px;}
+.recent-post-summ { border-left: 1px solid #69B7E2; color: #777; padding: 0px 5px 0px 20px; margin-left: 11px; font-family: Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif; font-size: 15px;}
+</style></div>
